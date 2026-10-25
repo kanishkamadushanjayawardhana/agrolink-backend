@@ -1,0 +1,25 @@
+
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.bak
+*.backup
+
+# Local uploads (optional: exclude test images)
+app/uploads/
